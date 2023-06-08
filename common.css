@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+p {
+  background-color: deepskyblue;
+  color: fuchsia;
+  font-size: medium;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+body {
+  background-image: url(./作品照片/天空2.jpg);
+  background-size: 100%;
+}
+#yuan1 {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  position: unset;
+  bottom: 300px;
+  right: 900px;
+  background-color: rgb(32, 233, 255);
+  z-index: 1;
+  border: 3px solid black;
+}
+#yuan1:hover {
+  background-color: rgb(255, 255, 255);
+}
+/* WebKit Browsers */
+::-webkit-scrollbar {
+  width: 14px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px 10px 10px 10px;
+  background: #dcd5d5;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+/* Firefox */
+::-moz-scrollbar {
+  width: 14px;
+}
+
+::-moz-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-moz-scrollbar-thumb {
+  border-radius: 10px 10px 10px 10px;
+  background: #dcd5d5;
+}
+
+::-moz-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.main {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: 90px;
+  box-sizing: border-box;
+}
+.left {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 48vw;
+}
+.swiper {
+  width: 48vw;
+  height: 62vh;
+}
+.swiper img {
+  width: 100%;
+  height: 100%;
+}
+.button-group {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: 999;
+  display: flex;
+  flex-direction: column;
+  width: 40px;
+  height: 80px;
+  cursor: pointer;
+}
+.right {
+  position: fixed;
+  right: 90px;
+  top: 50%;
+  transform: translate(0, -50%);
+  width: 34vw;
+  min-height: 600px;
+  background-repeat: no-repeat;
+  background-size: 73%;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans',
+    'Helvetica Neue', sans-serif;
+}
+.right .content {
+  display: none;
+  height: fit-content;
+}
+
+.right img {
+  width: 100%;
+}
+.text-box {
+  height: 36vh;
+  margin-top: 12px;
+  padding: 20px 18px;
+  border: 2px solid #000;
+  box-sizing: border-box;
+  background-color: rgb(242, 252, 127);
+  font-family: Georgia, serif;
+  overflow-y: scroll;
+}
+.text-box p {
+  color: #000;
+  font-size: 15px;
+  line-height: 22px;
+  background-color: unset;
+}
+.text-box .box-top {
+  display: flex;
+  align-items: center;
+  margin-left: 24px;
+  margin-bottom: 24px;
+}
+.box-top h3 {
+  margin-right: 18px;
+  font-size: 42px;
+}
+.text-box .box-top .box-right {
+  display: flex;
+  flex-direction: column;
+}

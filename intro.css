@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html, body {
+    width: 100%;
+    height: 100%;
+}
+body {
+    background-image: url(./作品照片/天空2.jpg);
+    background-size: 100%;
+}
+p{
+    background-color: deepskyblue;
+    color: fuchsia;
+    font-size: medium;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#yuan1 {
+    width:40px;
+    height: 40px;
+    border-radius: 50%;
+    position: unset;
+    bottom: 300px;
+    right: 900px;
+    background-color: rgb(32, 233, 255);
+    z-index: 1;
+    border: 3px solid black;
+}
+#yuan1:hover {
+background-color: rgb(255, 255, 255);
+}
+
+
+.main {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    padding: 60px;
+    box-sizing: border-box;
+}
+
+.geek {
+    position: absolute;
+    width: 500px;
+    height: 800px;
+    right: 30px;
+    transform: translate(0, 5%);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.geek:hover {
+    background-image: url(./作品照片/geek\ talk_画板\ 1.png);
+}
+

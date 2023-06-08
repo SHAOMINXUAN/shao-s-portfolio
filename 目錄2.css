@@ -1,0 +1,206 @@
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+body {
+  position: relative;
+  /* background-image: url(./作品照片/10_画板\ 1\ 副本\ 8.jpg); */
+  background-color: rgb(255, 188, 255);
+  background-size: 100%;
+}
+
+    @font-face {
+        font-family: MyFont;
+        src: url(NISC18030.ttf);
+        
+      }
+      p {
+        font-family: 'MyFont';
+      }
+      
+
+#yuan1 {
+    width:40px;
+    height: 40px;
+    border-radius: 50%;
+    position: unset;
+    bottom: 300px;
+    right: 900px;
+    background-color: rgb(32, 233, 255);
+    z-index: 1;
+    border: 3px solid black;
+}
+#yuan1:hover {
+background-color: rgb(255, 255, 255);
+}
+
+a {
+  display: inline-block;
+  width: 250px;
+  height: 250px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.introduction {
+  background-image: url(./貼紙/IMG_9121.PNG);
+}
+.apple {
+  background-image: url(./作品照片/貼紙/貼紙-03.png);
+}
+.apple:hover {
+  background-image: url(./作品照片/貼紙/貼紙-08.png);
+}
+.spider {
+  background-image: url(./作品照片/貼紙/貼紙-04.png);
+}
+.spider:hover {
+  background-image: url(./作品照片/貼紙/貼紙-09.png);
+}
+.man {
+  background-image: url(./作品照片/貼紙/貼紙-07.png);
+}
+.man:hover {
+  background-image: url(./作品照片/貼紙/貼紙-10.png);
+}
+.cotton {
+  background-image: url(./作品照片/貼紙/貼紙-06.png);
+}
+.cotton:hover {
+  background-image: url(./作品照片/貼紙/貼紙-12.png);
+}
+.leg {
+  background-image: url(./作品照片/貼紙/貼紙-05.png);
+}
+.leg:hover {
+  background-image: url(./作品照片/貼紙/貼紙-11.png);
+}
+.adi {
+  background-image: url(./作品照片/貼紙/15-16.png);
+}
+.adi:hover {
+  background-image: url(./作品照片/貼紙/15-18.png);
+}
+.bian {
+  background-image: url(./作品照片/貼紙/15-15.png);
+}
+.bian:hover {
+  background-image: url(./作品照片/貼紙/15-17.png);
+}
+
+
+
+
+
+
+.spider1 {
+  position: absolute;
+  left: 30px;;
+  top: 200px;
+}
+.man1 {
+  position: absolute;
+  left: 30px;
+  bottom: 10px;
+  left: 110px;
+  height: 700px;
+}
+.cotton1 {
+  position: absolute;
+  top: 100px;
+  left: 250px;
+  transform: rotate(-90deg);
+}
+.leg1 {
+  position: absolute;
+  bottom: 0;
+  left: 730px;
+}
+.bian2 {
+  position: absolute;
+  top: 300px;
+  left: 500px;
+}
+.apple1 {
+  position: absolute;
+  right: 200px;
+  bottom: 1000px;
+}
+.spider2 {
+  position: absolute;
+  top: 8px;
+  left: 780px;
+}
+.man2 {
+  position: absolute;
+  bottom: -20px;
+  left: 200px;
+  transform: rotate(90deg);
+}
+.cotton2 {
+  position: absolute;
+  bottom: 0;
+  left: 500px;
+  transform: rotate(180deg);
+}
+.apple2 {
+  position: absolute;
+  right: 0;
+  bottom: -10px;
+}
+.spider3 {
+  position: absolute;
+  bottom: 100px;
+  right: 300px;
+}
+.man3 {
+  position: absolute;
+  right: 0;
+  bottom: 400px;
+}
+.leg3 {
+  position: absolute;
+  top: 150px;
+  right: 180px;
+}
+.adi2 {
+  position: absolute;
+  bottom: 500px;
+  right: 600px;
+}
+.cotton4 {
+  position: absolute;
+  bottom: 180px;
+  left: 730px;
+}
+.bian1 {
+  position: absolute;
+  top: 240px;
+  right: 60px;
+  transform: rotate(180deg);
+}
+.apple3 {
+  position: absolute;
+  top: 50%;
+  right: 65%;
+}
+.adi1 {
+  position: absolute;
+  left: 400px;
+}
+.leg5 {
+  position: absolute;
+  top: 70%;
+  right: 240px;
+}
+.spider4 {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+.man4 {
+  position: absolute;
+  left: 70%;
+  top: 0;
+  transform: rotate(90deg);
+}

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>网格3</title>
+ <link rel="stylesheet" href="封面1.css" /> 
+
+  <body>
+    <button id="enter" onclick="gotoPage()">ENTER!</button>
+   
+
+    <!-- <img height=200 id="myImage" src="./作品照片/IMG_7576.PNG" alt="你的照片" style="opacity: 0;">
+    <img height=500 id="my" src="./作品照片/蘋果_画板 1.png" alt="你的照片" style="opacity: 0;">
+    <img height=500 id="c" src="./作品照片/棺材_画板 1.png" alt="你的照片" style="opacity: 0;">
+    <img height=500 id="zuan" src="./作品照片/鑽石2_画板 1.png" alt="你的照片" style="opacity: 0;">
+    <img height=500 id="y" src="./作品照片/椰子_画板 1.png" alt="你的照片" style="opacity: 0;"> -->
+    
+      <img id="milk3" src="./作品照片/1_画板 1-02.png">
+      <img id="diamond" src="./作品照片/鑽石2_画板 1.png">
+      <img id="coffin" src="./作品照片/棺材_画板 1.png">
+      <img id="spider" src="./作品照片/蜘蛛_画板 1 副本 4.png">
+      <img id="diamond-right" src="./作品照片/1_画板 1-01.png">
+      <img id="shark" src="./作品照片/1_画板 1-04.png">
+      <img id="cigarette" src="./作品照片/1_画板 1-06.png">
+      <img id="bg4" src="./作品照片/背景4的副本.jpg">
+      <img id="angel" src="./作品照片/天使的副本.JPG">
+      <img id="apple" src="./作品照片/小小書_画板 1 副本 4.png">
+      <img id="coconut" src="./作品照片/椰子_画板 1.png">
+      <img id="milk" src="./作品照片/1_画板 1-02.png">
+      <img id="tie" src="./作品照片/1_画板 1-03.png">
+      <img id="butterfly" src="./作品照片/1_画板 1-05.png">
+      <img id="apple2" src="./作品照片/棉花蘋果_画板 1 副本 4.png">
+      <img id="man" src="./作品照片/IMG_7576.PNG" alt="">
+      <img id="spider2" src="./作品照片/蜘蛛_画板 1 副本 4.png">
+      <img id="coconut2" src="./作品照片/椰子_画板 1.png">
+      <img id="milk2" src="./作品照片/1_画板 1-02.png">
+      <img id="diamond2" src="./作品照片/鑽石2_画板 1.png">
+      <img id="diamond3" src="./作品照片/1_画板 1-01.png">
+      <img id="cigarette2" src="./作品照片/1_画板 1-06.png">
+      <img id="tie2" src="./作品照片/1_画板 1-03.png">
+      <img id="coconut3" src="./作品照片/椰子_画板 1.png">
+
+    <script>
+      var opacity = 0;
+      var timer = setInterval(function(){
+        opacity += 0.1;
+        // document.getElementById("myImage").style.opacity = opacity;
+        // document.getElementById("my").style.opacity = opacity;
+        // document.getElementById("zuan").style.opacity = opacity;
+        // document.getElementById("c").style.opacity = opacity;
+        // document.getElementById("y").style.opacity = opacity;
+        for (var i = 0; i < document.querySelectorAll('img').length; i++) {
+          document.querySelectorAll('img')[i].style.opacity = opacity;
+        }
+        if(opacity >= 1){
+          clearInterval(timer);
+          setTimeout(function(){
+            var timer2 = setInterval(function(){
+              opacity -= 0.1;
+              // document.getElementById("myImage").style.opacity = opacity;
+              // document.getElementById("my").style.opacity = opacity;
+              // document.getElementById("zuan").style.opacity = opacity;
+              // document.getElementById("c").style.opacity = opacity;
+              // document.getElementById("y").style.opacity = opacity;
+              for (var i = 0; i < document.querySelectorAll('img').length; i++) {
+                document.querySelectorAll('img')[i].style.opacity = opacity;
+              }
+              if(opacity <= 0){
+                clearInterval(timer2);
+                document.querySelector('#enter').style.display = 'block'
+              }
+            }, 100);
+          }, 1000);
+        }
+      }, 100);
+      
+      function gotoPage(){
+        window.location.href = "目錄2.html";
+      }
+    </script>
+    <style>
+        
+    </style>
+    <div id="c"></div>
+    
+  </body>
+</html>
