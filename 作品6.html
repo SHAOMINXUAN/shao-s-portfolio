@@ -4,65 +4,24 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>adidas</title>
-  <link rel="stylesheet" href="./swiper-bundle.min.css">
   <link rel="stylesheet" href="./common.css">
-  <link rel="stylesheet" href="作品6.css" />
 </head>
 <body>
   <div class="main">
-    <div class="outter">
-      <div class="left">
-        <p>视觉展现</p>
-        <div class="swiper1 swiper">
-          <div class="swiper-wrapper">
-            <div class="swiper-slide">
-              <img src="./作品照片/阿迪达斯/特写.png" />
-            </div>
-            <div class="swiper-slide">
-              <img src="./作品照片/阿迪达斯/第一套服装.png" />
-            </div>
-            <div class="swiper-slide">
-              <img src="./作品照片/阿迪达斯/第二套服装.png" />
-            </div>
-            <div class="swiper-slide">
-              <img src="./作品照片/阿迪达斯/第三套服装1.png" />
-            </div>
-          </div>
-          <div class="swiper-pagination1"></div>
-        </div>
-        <div class="button-group">
-          <img class="button-prev1" src="./icons/up.svg">
-          <img class="button-next1" src="./icons/down.svg">
-        </div>
-      </div>
-      <div class="left" style="margin-top: 24px;">
-        <p>门店活动</p>
-        <div class="swiper2 swiper">
-          <div class="swiper-wrapper">
-            <div class="swiper-slide">
-              <img src="./作品照片/阿迪达斯/门店1.jpg" />
-            </div>
-            <div class="swiper-slide">
-              <img src="./作品照片/阿迪达斯/门店2.jpg" />
-            </div>
-            <div class="swiper-slide">
-              <img src="./作品照片/阿迪达斯/门店3.jpg" />
-            </div>
-            <div class="swiper-slide">
-              <img src="./作品照片/阿迪达斯/门店4.jpg" />
-            </div>
-            <div class="swiper-slide">
-              <img src="./作品照片/阿迪达斯/门店5.jpg" />
-            </div>
-          </div>
-          <div class="swiper-pagination2"></div>
-        </div>
-        <div class="button-group">
-          <img class="button-prev2" src="./icons/up.svg">
-          <img class="button-next2" src="./icons/down.svg">
-        </div>
-      </div>
-     
+    <div class="left">
+      <p>视觉展现</p>
+      <img src="./作品照片/阿迪达斯/特写.png" />
+      <img src="./作品照片/阿迪达斯/第一套服装.png" />
+      <img src="./作品照片/阿迪达斯/第二套服装.png" />
+      <img src="./作品照片/阿迪达斯/第三套服装1.png" />
+
+      <p>门店活动</p>
+      <img src="./作品照片/阿迪达斯/门店1.jpg" />
+      <img src="./作品照片/阿迪达斯/门店2.jpg" />
+      <img src="./作品照片/阿迪达斯/门店3.jpg" />
+      <img src="./作品照片/阿迪达斯/门店4.jpg" />
+      <img src="./作品照片/阿迪达斯/门店5.jpg" />
+    </div>   
     <div class="right">
       <div class="content">
         <img src="./作品照片/头图/作品6.png">
@@ -83,39 +42,6 @@
   <div id="yuan">
     <a href="目錄2.html"><div id="yuan1"></div></a >
   </div>
-  </div>
-  <script src="./swiper-bundle.min.js"></script>
-  <script>
-    new Swiper('.swiper1', {
-      direction: 'vertical',
-      loop: true,
-      pagination: {
-        el: '.swiper-pagination1',
-      },
-      navigation: {
-        nextEl: '.button-next1',
-        prevEl: '.button-prev1',
-      },
-    })
-    new Swiper('.swiper2', {
-      direction: 'vertical',
-      loop: true,
-      pagination: {
-        el: '.swiper-pagination2',
-      },
-      navigation: {
-        nextEl: '.button-next2',
-        prevEl: '.button-prev2',
-      },
-    })
-    const right = document.querySelector('.right')
-    const content = right.querySelector('.content')
-    right.addEventListener('mouseover', function () {
-      content.style.display = 'block'
-    })
-    right.addEventListener('mouseleave', function () {
-      content.style.display = 'none'
-    })
-  </script>
 </body>
 </html>
+ 
